@@ -56,7 +56,9 @@
 
 					<p>This week, I committed to diving down a deep rabbit hole in an attempt to find some sort of explanation as to why Jones is a turnover machine. And is his decision making really as bad as it seems?</p>
 
-					<iframe id="example1" class="left" src="https://laurastickells.shinyapps.io/week8turnovers/" style="padding:10px;border:2px solid gray;" width="400px" height= "500px" frameborder="4px" ></iframe>
+					<iframe id="example1" class="left" src="https://laurastickells.shinyapps.io/week8turnovers/" style="padding:10px 0;border:4px solid #ffffcc;" width="400px" height= "500px" frameborder="4px" >
+						Your browser doesn't support iframes
+					</iframe>
 
 					<p>Before I get started, it’s worth noting that according to Pro Football Focus, the Giants pass block is the worst ranked in the league. But it’s also worth noting that I’ve screamed, “THROW IT AWAY!” at my TV while watching the Giants to no avail more often than feels appropriate.</p>
 
@@ -72,10 +74,9 @@
 
 					<p>Considering Jones’ high interception rate and low completion percentage (<a href="https://www.nfl.com/stats/player-stats/" target="_blank" >61.8% — 26th out of 33 quarterbacks</a>) and given his record of questionable decision making, I expected to find him attempting more passes with a lower completion probability compared to the rest of the league.</p>
 
-						<figure class="right">
-							<img src="images/DanielJones1.jpg" alt="" width="500">
-							<figcaption>I was suprised to see that Jones (red) is less likely than the rest of the NFL's quarterbacks (blue) to attempt a pass with less than a 50% probability of completion.</figcaption>
-						</figure>
+					<iframe id="example1" class="right" src="https://laurastickells.shinyapps.io/Week8RiskHistogram/" style="padding:10px 0;border:4px solid #ffffcc;" width="500px" height= "400px" frameborder="4px" >
+							Your browser doesn't support iframes
+					</iframe>
 
 					<p>But Jones’ density plot nearly mirrored that of the rest of the league’s quarterbacks. Surprisingly, one of the slight differences is that Jones has thrown fewer passes with a completion probability under 50% than the average quarterback. Just for fun and to see if I was onto something, I graphed the completion probabilities for a few other QB’s (Russell Wilson, Tom Brady, Aaron Rodgers and Drew Lock). Their distributions looked much more distinct.</p>
 
@@ -83,11 +84,9 @@
 
 					<p>Just to be sure I checked my hypothesis by building a linear model, using Jones’ completion probability to predict his interceptions. And yes, there is a statistically significant negative correlation (-0.20) between the variables. I also built a model using all 2020 passers for comparison purposes.  When graphed together, it’s clear Jones is more likely to throw an interception on a difficult pass than an average quarterback.</p>
 
-						<figure class="left">
-							<img src="images/DanielJones2.jpg" alt="" width="350">
-							<figcaption>When Jones does attempt a pass with a completion probability below 50%, he's about 50% more likely than the league average to get picked off.</figcaption>
-						</figure>
-
+					<iframe id="example1" class="left" src="https://laurastickells.shinyapps.io/cpxinterceptionsweek8/" style="padding:10px 0;border:4px solid #ffffcc;" width="400px" height= "400px" frameborder="4px" >
+						Your browser doesn't support iframes
+					</iframe>
 
 					<p>Looking at these numbers, it seems that Jones isn’t typically making riskier passes than the rest of the league. But when he does attempt them you notice because they often don’t end well.</p>
 
@@ -105,8 +104,6 @@
 
 					</div>
 					</section>
-
-
 
 			<!-- Footer -->
 				<footer id="footer">
