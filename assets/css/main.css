@@ -2574,7 +2574,7 @@
 		.image.left {
 			float: left;
 			clear: right;
-			padding: 0 1.5em 1em 0;
+			padding: 0 .5em 1em 0;
 			top: 0.25em;
 			max-width: 100% ;
 
@@ -3087,9 +3087,9 @@
 				background: #444;
 				color: #bbb;
 				cursor: default;
-				height: 3.25em;
+				height: 3.75em;
 				left: 0;
-				line-height: 3.25em;
+				line-height: 3.75em;
 				position: fixed;
 				top: 0;
 				width: 100%;
@@ -3109,6 +3109,7 @@
 
 					#header h1 a {
 						color: #fff;
+						font-size: 17pt;
 						font-weight: 400;
 						border: 0;
 					}
@@ -3117,21 +3118,26 @@
 					height: inherit;
 					line-height: inherit;
 					position: absolute;
-					right: 0.75em;
 					top: 0;
+					right: 1em;
 					vertical-align: middle;
+					text-align: center;
 				}
 
 					#header nav > ul {
 						list-style: none;
 						margin: 0;
 						padding-left: 0;
+
 					}
 
 						#header nav > ul > li {
 							display: inline-block;
 							padding-left: 0;
+							font-weight: 400;
+
 						}
+
 
 							#header nav > ul > li > ul {
 								display: none;
@@ -3143,6 +3149,7 @@
 								line-height: 1.95em;
 								padding: 0 1em;
 								border-radius: 6px;
+
 							}
 
 							#header nav > ul > li a:not(.button) {
@@ -3162,6 +3169,10 @@
 							}
 
 							#header nav > ul > li.active a:not(.button) {
+								background-color: rgba(153, 153, 153, 0.25);
+							}
+
+							#header nav > ul > li > a:hover {
 								background-color: rgba(153, 153, 153, 0.25);
 							}
 
@@ -3217,17 +3228,17 @@
 					-webkit-animation: none;
 					-ms-animation: none;
 					animation: none;
-					background: none;
+					background: rgba(192,192,192, .5);
 					color: rgba(255, 255, 255, 0.75);
 					position: absolute;
 				}
 
 					#header.alt nav > ul > li a:not(.button).icon:before {
-						color: rgba(255, 255, 255, 0.75);
+						color: rgba(153, 153, 153, 0.5);
 					}
 
 					#header.alt nav > ul > li.active a:not(.button) {
-						background-color: rgba(255, 255, 255, 0.2);
+						background-color: rgba(153, 153, 153, 0.5);
 					}
 
 					#header.alt input[type="submit"],
@@ -3759,7 +3770,8 @@
 							background: rgba(192, 192, 192, 0.75);
 							border-radius: 6px;
 							color: #fff;
-							content: '\f0c9';
+							content: 'Menu';
+							font-family: sans-serif;
 							display: block;
 							font-size: 16px;
 							height: 2.25em;
