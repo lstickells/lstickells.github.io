@@ -5,7 +5,7 @@
 -->
 <html>
 	<head>
-		<title>Analytics Blog</title>
+		<title>BY-Who???</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -42,22 +42,29 @@
 							<a href="homepage.html" class="button alt ">Previous Posts</a>
 							</ul></center>
 						<p></p>
-						<h3><b>Daniel Jones isn't attempting as many risky passes as you think, but when he does, hold your breath.</b></h3>
-						<p><b> By <a href="https://twitter.com/LauraStickells" target="_blank" >Laura Stickells</a> | November 8, 2020 </b>
+						<h3><b>Everything is bigger in Texas... including your draft number.</b></h3>
+
+						<div class="getty embed image" style="background-color:#fff;display:inline-block;font-family:Roboto,sans-serif;color:#a7a7a7;font-size:11px;width:100%;"><div style="padding:0;margin:0;text-align:left;"><a href="http://www.gettyimages.com/detail/1280692036" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">Embed from Getty Images</a></div><div style="overflow:hidden;position:relative;height:0;padding:66.66667% 0 0 0;width:100%;"><iframe src="//embed.gettyimages.com/embed/1280692036?et=KprleKudT6h3yZPzEKHD5w&tld=com&sig=dVaok-T9MzEWG2FAJQ_YfUYv0KB6ihTbsQgAxZ6cguQ=&caption=true&ver=1" scrolling="no" frameborder="0" width="594" height="396" style="display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;margin:0;"></iframe></div></div>            <p></p>
+						<p></p>
+						<p><b> By <a href="https://twitter.com/LauraStickells" target="_blank" >Laura Stickells</a> | April 28, 2021 </b>
         <hr/>
+
           <p>After the first half of Monday night’s game between the New York Giants and the Tampa Bay Buccaneers, I managed to trick myself into thinking that maybe Daniel Jones could finally notch his second win of the season. After tripping over his own feet on what would have otherwise been a sure touchdown the week before, I thought Jones could really use a morale boost.</p>
 
 					<p>But no such luck.</p>
 
 					<p>In case you missed it, Bucs head coach Bruce Arians provided a good summary of the second half: </p>
 
+					<blockquote class="twitter-tweet"><p lang="en" dir="ltr">love to see it <a href="https://t.co/VwGo9ztDxy">https://t.co/VwGo9ztDxy</a> <a href="https://t.co/81S0yjRFyD">pic.twitter.com/81S0yjRFyD</a></p>&mdash; Mike Golic Jr (@mikegolicjr) <a href="https://twitter.com/mikegolicjr/status/1374399134812102657?ref_src=twsrc%5Etfw">March 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 					<p>"The young quarterback – he's still trying to do too much," <a href="https://www.cbssports.com/nfl/news/bruce-arians-makes-honest-evaluation-of-daniel-jones-after-two-crucial-interceptions-in-giants-loss/" target="_blank" >Arians told reporters after the game</a>. "It cost them basically the ballgame throwing those two picks. God bless him – he is hard to handle and he's a kid that thinks he can make a play."</p>
 
 					<p>This week, I committed to diving down a deep rabbit hole in an attempt to find some sort of explanation as to why Jones is a turnover machine. And is his decision making really as bad as it seems?</p>
 
-					<iframe id="example1" class="left" src="https://laurastickells.shinyapps.io/week8turnovers/" style="padding:10px 0;border:4px solid #ffffcc;" width="400px" height= "500px" frameborder="4px" >
-						Your browser doesn't support iframes
-					</iframe>
+          <figure class="left" style="width:600px;overflow:scroll;padding:5px;border:4px solid #ffffcc;">
+						<img src="images/BYU.jpg" alt="" width="580">
+            <figcaption>On second downs the Chargers are significantly better with an above average success rate and a close to average EPA. The dashed line is the league average.</figcaption>
+					</figure>
 
 					<p>Before I get started, it’s worth noting that according to Pro Football Focus, the Giants pass block is the worst ranked in the league. But it’s also worth noting that I’ve screamed, “THROW IT AWAY!” at my TV while watching the Giants to no avail more often than feels appropriate.</p>
 
@@ -70,11 +77,10 @@
 					<p>But here is when this rabbit hole got a little twisted. I used a density plot to visualize the distribution of the completion probability*** for all of Jones’ pass attempts this season and compared it to the rest of the league in an attempt to mimic risky decision making. (Although I acknowledge that low completion probability is not a comprehensive equivalent to high risk, I’m confident there is at least some legitimate correlation. It’s also the best play-by-play stat available
 					to me.)</p>
 
-
 					<p>Considering Jones’ high interception rate and low completion percentage (<a href="https://www.nfl.com/stats/player-stats/" target="_blank" >61.8% — 26th out of 33 quarterbacks</a>) and given his record of questionable decision making, I expected to find him attempting more passes with a lower completion probability compared to the rest of the league.</p>
 
-					<iframe id="example1" class="right" src="https://laurastickells.shinyapps.io/Week8RiskHistogram/" style="padding:10px 0;border:4px solid #ffffcc;" width="500px" height= "400px" frameborder="4px" >
-							Your browser doesn't support iframes
+          <iframe id="example1" class="left" src="https://laurastickells.shinyapps.io/BYUintheNFL/" style="padding:10px 0;border:4px solid #ffffcc;" width="800px" height= "500px" frameborder="4px" >
+						Your browser doesn't support iframes
 					</iframe>
 
 					<p>But Jones’ density plot nearly mirrored that of the rest of the league’s quarterbacks. Surprisingly, one of the slight differences is that Jones has thrown fewer passes with a completion probability under 50% than the average quarterback. Just for fun and to see if I was onto something, I graphed the completion probabilities for a few other QB’s (Russell Wilson, Tom Brady, Aaron Rodgers and Drew Lock). Their distributions looked much more distinct.</p>
@@ -82,10 +88,6 @@
 					<p>I also graphed Jones’ interceptions as tick marks below the graph. From looking at the density plot, I can see that although only about 10% of his passes have a completion probability under 50%, they account for 4 of his 9 interceptions. Two of them were on Monday night. That seems correlated to me.</p>
 
 					<p>Just to be sure I checked my hypothesis by building a linear model, using Jones’ completion probability to predict his interceptions. And yes, there is a statistically significant negative correlation (-0.20) between the variables. I also built a model using all 2020 passers for comparison purposes.  When graphed together, it’s clear Jones is more likely to throw an interception on a difficult pass than an average quarterback.</p>
-
-					<figure class="left" style="height:450px;width:500px;overflow:scroll;padding:10px 0;border:4px solid #ffffcc;">
-						<img src="images/DanielJones2.jpg" alt="" width="480">
-					</figure>
 
 					<p>Looking at these numbers, it seems that Jones isn’t typically making riskier passes than the rest of the league. But when he does attempt them you notice because they often don’t end well.</p>
 
