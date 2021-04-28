@@ -88,6 +88,7 @@
 	}
 
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -154,6 +155,35 @@
 		margin: 0 0 1.5em 0;
 
 	}
+
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+		background-color: #ffb5b5;
+	}
+
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  width: 200px;
+	  background-color: #9c9c9c;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px 5px;
+		font-style: italic;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	  top: 100%;
+	  left: 50%;
+	  margin-left: -60px;
+	}
+
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: 	#686868;
