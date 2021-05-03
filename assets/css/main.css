@@ -386,6 +386,11 @@
 			width: 25%;
 		}
 
+		.row > .col-3-tweet {
+			width: 24%;
+			margin-left: 7px;
+		}
+
 		.row > .off-3 {
 			margin-left: 25%;
 		}
@@ -1342,6 +1347,10 @@
 
 				.row > .imp-narrower {
 					order: -1;
+				}
+
+				.row > .col-0-narrower {
+					display: none !important;
 				}
 
 				.row > .col-1-narrower {
