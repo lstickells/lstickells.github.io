@@ -2102,6 +2102,9 @@
 		position: relative;
 		margin: 0 0 1.5em 0;
 		font-style: italic;
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.5em;
 	}
 
 	header h2 ~ p {
@@ -2141,7 +2144,6 @@
 			color: #404040;
 			font-style: normal;
 			text-align: left;
-			text-indent: 3em
 		}
 
 /* Form */
@@ -3454,7 +3456,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding:  4em 0 0 0;
 	}
 
 		#main > header {
