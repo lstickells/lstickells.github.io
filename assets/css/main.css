@@ -2645,8 +2645,12 @@
 							}
 
 							.image.hockeydemo:hover {
+								-moz-filter: brightness(100%) !important;
 								-webkit-filter: brightness(100%) !important;
+								-ms-filter: brightness(100%) !important;
+								-moz-transition: filter .2s ease-in-out;
 								-webkit-transition: filter .2s ease-in-out;
+								-ms-transition: filter .2s ease-in-out;
 								transition: filter .2s ease-in-out;
 								filter: brightness(100%) !important;
 
