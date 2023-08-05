@@ -2596,6 +2596,118 @@
 
 				/* end copy */
 
+				/* Copied in from Strata */
+
+
+						.image.hockeydemo {
+							text-align: center;
+
+						}
+
+							.image.hockeydemo:after {
+								-moz-transition: opacity 0.2s ease-in-out;
+								-webkit-transition: opacity 0.2s ease-in-out;
+								-ms-transition: opacity 0.2s ease-in-out;
+								transition: opacity 0.2s ease-in-out;
+								background: rgba(100, 100, 100, .9);
+								border-radius: 6px;
+								border: solid 3px rgba(350, 350, 350, 1);
+								color: #fff;
+								content: 'HOCKEY REEL';
+								display: inline-block;
+								font-size: 1.1em;
+								font-weight: 500;
+								left: 43%;
+								line-height: 2.25em;
+								margin: -1.25em 0 0 -3em;
+								opacity: 1;
+								padding: 0 1.5em;
+								position: absolute;
+								text-align: center;
+								text-decoration: none;
+								top: 55%;
+								white-space: nowrap;
+
+							}
+
+							.image.hockeydemo:hover:after {
+								opacity: 1.0;
+							}
+
+							.image.hockeydemo:hover:before {
+								background: url("images/overlay.png"), url("images/overlay.png");
+								opacity: 1.0;
+							}
+
+							.image.hockeydemo  {
+								-webkit-filter: brightness(60%) !important;
+								filter: brightness(60%) !important;
+							}
+
+							.image.hockeydemo:hover {
+								-webkit-filter: brightness(100%) !important;
+								-webkit-transition: filter .2s ease-in-out;
+								transition: filter .2s ease-in-out;
+								filter: brightness(100%) !important;
+
+							}
+
+							.image.baseballdemo {
+								text-align: center;
+
+							}
+
+								.image.baseballdemo:after {
+									-moz-transition: opacity 0.2s ease-in-out;
+									-webkit-transition: opacity 0.2s ease-in-out;
+									-ms-transition: opacity 0.2s ease-in-out;
+									transition: opacity 0.2s ease-in-out;
+									background: rgba(100, 100, 100, .9);
+									border-radius: 6px;
+									border: solid 3px rgba(350, 350, 350, 1);
+									color: #fff;
+									content: 'BASEBALL REEL';
+									display: inline-block;
+									font-size: 1.1em;
+									font-weight: 500;
+									left: 43%;
+									line-height: 2.25em;
+									margin: -1.25em 0 0 -3em;
+									opacity: 1;
+									padding: 0 1.5em;
+									position: absolute;
+									text-align: center;
+									text-decoration: none;
+									top: 55%;
+									white-space: nowrap;
+
+								}
+
+								.image.baseballdemo:hover:after {
+									opacity: 1.0;
+								}
+
+								.image.baseballdemo:hover:before {
+									background: url("images/overlay.png"), url("images/overlay.png");
+									opacity: 1.0;
+								}
+
+								.image.baseballdemo  {
+									-webkit-filter: brightness(60%) !important;
+									filter: brightness(60%) !important;
+								}
+
+								.image.baseballdemo:hover {
+									-webkit-filter: brightness(100%) !important;
+									-webkit-transition: filter .2s ease-in-out;
+									transition: filter .2s ease-in-out;
+									filter: brightness(100%) !important;
+
+								}
+
+
+							/* end copy */
+
 		.image img {
 			border-radius: 6px;
 			display: block;
